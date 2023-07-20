@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.my-width {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.my-btn{
+    margin: auto;
+    margin-top: 10px;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+.liste-taches{
+    margin-top: 40px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.list-group-item{
+    margin-bottom: 20px;
+    border: solid, red;
+}
+
+i{
+    float: right;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.couleur{
+    margin-left: 20px;
+}
+.container .row{
+    align-items: center;
+}
+.container{
+    align-items: center;
+}
+
+
