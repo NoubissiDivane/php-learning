@@ -21,13 +21,13 @@
     <span class="navbar-text">
       <h1 class="text-middle">Task List</h1>
     </span>
-    <h1 style="float: right; color: white;">Connected User : {{ auth()->user()->name }}</h1>
+    <h1 style="float: right; color: white;">utilisateur connecte : {{ auth()->user()->name }}</h1>
   </nav>
 
     @if(session('message'))
         <div class="alert alert-success"><b>Well done ! </b> {{ session('message') }}.</div>
     @endif
-    
+
     @if(session('error'))
         <div class="alert alert-danger"><b>Danger ! </b> {{ session('error') }}.</div>
     @endif
