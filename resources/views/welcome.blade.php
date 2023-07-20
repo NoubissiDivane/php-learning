@@ -21,6 +21,7 @@
     <span class="navbar-text">
       <h1 class="text-middle">Task List</h1>
     </span>
+    <h1 style="float: right; color: white;">Connected User : {{ auth()->user()->name }}</h1>
   </nav>
 
     @if(session('message'))
